@@ -109,7 +109,7 @@ The nutrition information array has the following structure, with the array `ind
 
 #### `v1` & `v2` Difference in `type` Information
 
-**Key difference: `v2` contains more information (not just vegetarian or vegan) on what the entree contains (dairy, soy, seafood, etc.)**
+**Key Difference:** `v2` contains more information (not just vegetarian or vegan) on what the entree contains (dairy, soy, seafood, etc.)
 
 #### Version `v1`
 
