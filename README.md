@@ -22,7 +22,7 @@ The two versions have different structures, which is derived from the UCLA dinin
 
 Dictionary of 3 elements looking similar to the following:
 
-```json
+```js
 {
   "b": [],  // breakfast
   "l": [],  // lunch
@@ -36,7 +36,7 @@ where each element is an array containing data for each `meal`.
 
 In the `meal` arrays, there are a list of `restaurant` dictionaries that contain two elements shown below:
 
-```json
+```js
 {
   "r": "...",  // restaurant name
   "rk": []     // restaurant kitchens
@@ -49,7 +49,7 @@ in which each `restaurant` contains a `restaurant kitchen` array that contains a
 
 A `kitchen` dictionary has the structure similar to the following:
 
-```json
+```js
 {
   "k": "...",  // kitchen name
   "i": []      // kitchen items
@@ -62,7 +62,7 @@ in which each `kitchen` contains a `kitchen items` array that contains a list of
 
 Each `item` has the following structure:
 
-```json
+```js
 {
   "e": "...", // entree name
   "t": "...", // entree type
@@ -76,7 +76,7 @@ Nutrition information and `type` information will be further explained in the se
 
 The nutrition information array has the following structure, with the array `index` (0-based index) and type of nutrition information in the comments.
 
-```json
+```js
 [
   "0",   // 0, total calories
   "0",   // 1, calories from fat
