@@ -107,11 +107,13 @@ The nutrition information array has the following structure, with the array `ind
 ]
 ```
 
-#### `v1` & `v2` Difference in `type` Information
+#### `type` Information
 
-**Key Difference:** `v2` contains more information (not just vegetarian or vegan) on what the entree contains (dairy, soy, seafood, etc.)
+Key Difference Between `v1` and `v2`: `v2` contains more information (not just vegetarian or vegan) on what the entree contains (dairy, soy, seafood, etc.)
 
-#### Version `v1`
+Details on each version can be found below.
+
+##### Version `v1`
 
 `type` information is a single character string which shows that the entree is one of the following types:
 
@@ -121,7 +123,7 @@ The nutrition information array has the following structure, with the array `ind
 |        `v` | Vegetarian       |
 |        `g` | Vegan            |
 
-#### Version `v2`
+##### Version `v2`
 
 `type` information is a string that is a combination of the following characters:
 
@@ -139,7 +141,7 @@ The nutrition information array has the following structure, with the array `ind
 |           `f` | Contains Fish        |
 |           `c` | Low-Carbon Footprint |
 
-##### Examples
+###### Examples
 
 1. The `type` string `vde` indicates that this entree is vegetarian and contains diary & eggs.
 2. The `type` string `tc` indicates that this entree is ordinary, contains tree nuts and is low-carbon footprint.
