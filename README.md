@@ -1,6 +1,8 @@
 # UCLA Dining Hall Menus Dataset
 
-Menu data downloaded from the UCLA dining hall website from **July 25, 2016** to **April 10, 2017**.
+Structured menu data downloaded from the UCLA dining hall website from **July 25, 2016** to **April 10, 2017**.
+
+**Please star if you like it!**
 
 # Dataset Structure
 
@@ -26,7 +28,7 @@ Dictionary of 3 elements looking similar to the following:
 {
   "b": [],  // breakfast
   "l": [],  // lunch
-  "d": []   // idnner
+  "d": []   // dinner
 }
 ```
 
