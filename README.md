@@ -2,7 +2,9 @@
 
 Structured menu data downloaded from the UCLA dining hall website from **July 25, 2016** to **April 10, 2017**.
 
-#### Please star if you like this repo.
+This repo will be updated as I collect more data.
+
+### Please give me a star if you like this repo!
 
 # Dataset Structure
 
