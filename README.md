@@ -4,8 +4,6 @@ Structured menu data downloaded from the UCLA dining hall website from **July 25
 
 This repo will be updated as I collect more data.
 
-### Please give me a star if you like this repo!
-
 # Dataset Structure
 
 The dataset is included within the `data` subdirectory and is separated into versions `v1` and `v2` (more details below).
