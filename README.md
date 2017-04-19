@@ -2,6 +2,10 @@
 
 Menu data downloaded from the UCLA dining hall website from **July 25, 2016** to **April 10, 2017**.
 
+# Projects
+
+If you have used this data to create something awesome and would like to include your project repo or link, please update the `PROJECTS.md` file and send a pull request. Please follow the format that has been used.
+
 # Dataset Structure
 
 The dataset is included within the `data` subdirectory and is separated into versions `v1` and `v2` (more details below).
